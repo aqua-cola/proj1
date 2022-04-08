@@ -4,7 +4,7 @@ import { OptionsType } from "../../../pages/Posts";
 type MySelectType = {
     options: OptionsType[]
     defaultValue: string
-    value: string
+    value: string | number
     onChange: (event: string) => void
 }
 
